@@ -1,2 +1,2 @@
-a="Hello python"
+a="Hello python \n"
 print(a*10)
