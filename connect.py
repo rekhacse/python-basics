@@ -1,4 +1,4 @@
-import mysql.connector
+import mysql.connector #mysql connector must be installed
 cn=mysql.connector.connect(user='root', database='student',password='rekha')
 cr=cn.cursor()#cursor is the adapter
 cr.execute("select * from mark")
